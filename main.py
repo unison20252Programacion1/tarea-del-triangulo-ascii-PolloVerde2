@@ -30,8 +30,8 @@ def main():
         m = int(m_str)
     except ValueError:
         print("Error: La altura debe ser un numero entero")
-
-    triangulo_simetrico(m, s)
+    else:
+        triangulo_simetrico(m, s)
 
 if __name__ == "__main__":
     main()
